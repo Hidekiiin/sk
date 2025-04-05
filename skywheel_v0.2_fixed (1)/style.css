@@ -1,5 +1,47 @@
-#game-canvas {
-  display: none;
-  width: 100vw;
-  height: 100vh;
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+#start-screen {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: linear-gradient(#111, #333);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+#start-button {
+  padding: 12px 24px;
+  font-size: 24px;
+  border: none;
+  border-radius: 12px;
+  background: #0af;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#mobile-controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 5;
+}
+
+.control-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid white;
 }
