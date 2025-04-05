@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "name": "skywheel",
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" }
+  ]
+}
