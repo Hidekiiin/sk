@@ -1,0 +1,18 @@
+{
+  "name": "skywheel",
+  "version": "1.0.0",
+  "description": "A 3D racing game with Japanese 90s sports cars.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "dev": "parcel watch index.html"
+  },
+  "dependencies": {
+    "three": "^0.154.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {},
+  "author": "タケトロ",
+  "license": "MIT"
+}
