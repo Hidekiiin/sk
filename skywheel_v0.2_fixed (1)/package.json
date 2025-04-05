@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev"
+  }
   "name": "skywheel",
   "version": "1.0.0",
   "description": "A 3D racing game with Japanese 90s sports cars.",
