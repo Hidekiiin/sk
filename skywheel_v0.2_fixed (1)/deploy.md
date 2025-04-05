@@ -1,0 +1,1 @@
+https://playhop.com/app/255242?utm_source=app_page（sky race 3d)をできるだけ再現してレース要素を残せたら残して車も日本の９０年代のスポーツカーにしてGitHub とvercel をメインに使ってZIPファイルを解凍してそのまま貼り付ければできるアプリを作って名前はskywheel で
